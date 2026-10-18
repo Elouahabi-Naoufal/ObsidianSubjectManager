@@ -1,0 +1,28 @@
+{
+  "subjects": {
+    "1762957380107": {
+      "id": "1762957380107",
+      "name": "t",
+      "code": "01",
+      "professor": "w",
+      "credits": 1,
+      "archived": false,
+      "created": "2025-11-12T14:23:00.107Z"
+    }
+  },
+  "projects": {
+    "1762858714682": {
+      "id": "1762858714682",
+      "name": "testiiiiing",
+      "subjectId": "1762858537419",
+      "status": "planning",
+      "progress": 0,
+      "created": "2025-11-11T10:58:34.682Z"
+    }
+  },
+  "assignments": {},
+  "exams": {},
+  "todos": {},
+  "activeSubject": "1762858537419",
+  "absences": {}
+}

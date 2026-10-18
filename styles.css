@@ -1,0 +1,296 @@
+.subjects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.subject-card {
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 8px;
+    padding: 1rem;
+    background: var(--background-secondary);
+}
+
+.subject-card h4 {
+    margin: 0 0 0.5rem 0;
+    color: var(--text-accent);
+}
+
+.subject-card button {
+    margin-top: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.deadlines {
+    margin: 2rem 0;
+}
+
+.deadline-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    margin: 0.25rem 0;
+    background: var(--background-secondary);
+    border-radius: 4px;
+}
+
+.subject-form, .assignment-form, .project-form, .exam-form, .todo-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.subject-form input, .subject-form select, .subject-form button,
+.assignment-form input, .assignment-form select, .assignment-form button,
+.project-form input, .project-form select, .project-form button,
+.exam-form input, .exam-form select, .exam-form button,
+.todo-form input, .todo-form select, .todo-form button {
+    padding: 0.5rem;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    background: var(--background-primary);
+    color: var(--text-normal);
+}
+
+.subject-form button, .assignment-form button, .project-form button,
+.exam-form button, .todo-form button {
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.subject-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    background: var(--background-secondary);
+    border-radius: 8px;
+}
+
+.template-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.template-form select,
+.template-form input,
+.template-form button {
+    padding: 0.5rem;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    background: var(--background-primary);
+    color: var(--text-normal);
+}
+
+.template-form button {
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.template-form button:hover {
+    background: var(--interactive-accent-hover);
+}
+
+.absence-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.absence-form select,
+.absence-form input,
+.absence-form textarea,
+.absence-form button {
+    padding: 0.5rem;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    background: var(--background-primary);
+    color: var(--text-normal);
+}
+
+.absence-form button {
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.absence-list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.absence-item {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    background: var(--background-secondary);
+    border-radius: 8px;
+    border-left: 4px solid var(--text-accent);
+}
+
+.absence-item h4 {
+    margin: 0 0 0.5rem 0;
+    color: var(--text-accent);
+}
+
+.absence-item p {
+    margin: 0.25rem 0;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.search-results {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-top: 1rem;
+}
+
+.search-section {
+    margin-bottom: 1.5rem;
+}
+
+.search-section h3 {
+    margin: 0 0 0.5rem 0;
+    color: var(--text-accent);
+    border-bottom: 1px solid var(--background-modifier-border);
+    padding-bottom: 0.25rem;
+}
+
+.search-item {
+    padding: 0.5rem;
+    margin: 0.25rem 0;
+    background: var(--background-secondary);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-item:hover {
+    background: var(--background-modifier-hover);
+}
+
+.analytics-section {
+    margin: 2rem 0;
+}
+
+.analytics-section h3 {
+    margin: 0 0 1rem 0;
+    color: var(--text-accent);
+    border-bottom: 2px solid var(--background-modifier-border);
+    padding-bottom: 0.5rem;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.stat-card {
+    background: var(--background-secondary);
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid var(--background-modifier-border);
+}
+
+.stat-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-accent);
+    display: block;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-top: 0.5rem;
+}
+
+.list-item {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    background: var(--background-secondary);
+    border-radius: 8px;
+    border-left: 4px solid var(--text-accent);
+}
+
+.list-item h4 {
+    margin: 0 0 0.5rem 0;
+    color: var(--text-accent);
+}
+
+.list-item p {
+    margin: 0.25rem 0;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.actions {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.actions button {
+    padding: 0.25rem 0.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.actions button:first-child {
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+}
+
+.actions button:last-child {
+    background: var(--text-error);
+    color: white;
+}
+
+.crud-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.crud-buttons button {
+    padding: 0.5rem 1rem;
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.crud-buttons button:hover {
+    background: var(--interactive-accent-hover);
+}
+
+.crud-buttons button:nth-child(2) {
+    background: var(--background-modifier-border);
+    color: var(--text-normal);
+}
