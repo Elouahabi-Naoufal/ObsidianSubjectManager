@@ -1,7 +1,7 @@
 {
 	"id": "subject-manager",
 	"name": "Subject Manager",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minAppVersion": "0.15.0",
 	"description": "Complete academic subject management with projects, assignments, exams, and todo tracking",
 	"author": "Naoufal",
