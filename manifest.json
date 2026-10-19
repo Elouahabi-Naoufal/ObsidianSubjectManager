@@ -1,9 +1,9 @@
 {
 	"id": "subject-manager",
 	"name": "Subject Manager",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"minAppVersion": "0.15.0",
-	"description": "Complete academic subject management with projects, assignments, exams, and todo tracking",
+	"description": "Complete academic subject management with projects, assignments, exams, and todo tracking.",
 	"author": "Naoufal",
 	"authorUrl": "https://github.com/Elouahabi-Naoufal",
 	"fundingUrl": "",
